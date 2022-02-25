@@ -5,7 +5,7 @@ import './header.css';
 const Header = () => {
   const openLink = () => {
     const url = '#wgpt3';
-    window.scroll(url);
+    window.scrollIntoView(url);
   };
 
   return (
